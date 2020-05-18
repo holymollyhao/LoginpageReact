@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
         width : "100%",
     },
     gridelem:{
-        marginTop: "20px",
+        // marginTop: "20px",
         marginBottom: "20px",
     },
     inputelem: {
@@ -30,7 +30,7 @@ export default function LoginBlock() {
     <div 
         className= {classes.root}
         style={{
-            marginTop:"10%",
+            marginTop:"40px",
             display:"flex",
             flexDirection:"column",
         }}>
@@ -42,10 +42,10 @@ export default function LoginBlock() {
                 alignItems="center"
                 >
                 <Grid item className = {classes.inputelem}>
-                    <LoginInput idorpass = "ID" ></LoginInput>
+                    <LoginInput idorpass = "아이디" ></LoginInput>
                 </Grid>
                 <Grid item className = {classes.inputelem}>
-                    <LoginInput idorpass = "PASS"></LoginInput>
+                    <LoginInput idorpass = "패스워드"></LoginInput>
                 </Grid>
                 <Grid item className = {classes.inputelem}>
                     <Button 
