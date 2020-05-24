@@ -1,7 +1,7 @@
 html, body{
   height: 100%;
   margin:0;
-  background: linear-gradient(0deg, rgba(255,128,8,1) 0%, rgba(255,200,55,1) 100%);
+  /* background: linear-gradient(0deg, rgba(255,128,8,1) 0%, rgba(255,200,55,1) 100%); */
 }
 @font-face {
   font-family: "Nanum";
